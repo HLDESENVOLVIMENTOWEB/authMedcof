@@ -3,11 +3,15 @@ import authRoutes from './routes/authRoutes';
 import userRoutes from './routes/userRoutes';
 import errorHandler from './middlewares/errorHandler';
 
+import { setupSwagger } from './swaggerOptions'
+
 const app = express();
 app.use(express.json());
 
 app.use('/auth', authRoutes);
 app.use('/user', userRoutes);
+
+setupSwagger(app);
 
 app.use(errorHandler)
 
