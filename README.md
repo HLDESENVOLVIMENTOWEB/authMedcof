@@ -39,3 +39,13 @@ npm dev
 ```bash
 npm dev
 ````
+
+#### 6. Para acessar documentos de requisicoes
+
+
+```bash
+/api-docs/
+````
+
+
+
