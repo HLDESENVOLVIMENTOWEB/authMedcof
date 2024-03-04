@@ -1,0 +1,11 @@
+{"level":"error","timestamp":"2024-03-04T20:46:10.658Z"}
+{"level":"error","timestamp":"2024-03-04T20:46:51.853Z"}
+{"level":"error","timestamp":"2024-03-04T20:47:12.342Z"}
+{"level":"error","timestamp":"2024-03-04T20:50:47.693Z"}
+{"level":"error","timestamp":"2024-03-04T20:51:30.928Z"}
+{"level":"error","timestamp":"2024-03-04T20:51:31.752Z"}
+{"level":"error","message":"Authentication failed","timestamp":"2024-03-04T20:51:46.206Z"}
+{"level":"error","message":"Authentication failed","timestamp":"2024-03-04T20:51:47.094Z"}
+{"level":"error","timestamp":"2024-03-04T20:53:32.282Z"}
+{"level":"error","message":"User retrieval failed: User not found","timestamp":"2024-03-04T20:55:05.595Z"}
+{"level":"error","message":"User retrieval failed: User not found","timestamp":"2024-03-04T20:55:07.105Z"}
