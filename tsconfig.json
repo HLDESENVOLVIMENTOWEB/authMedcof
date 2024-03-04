@@ -19,6 +19,6 @@
     "resolveJsonModule": true,             
     "lib": ["es2020"]                      
   },
-  "include": ["src/**/*", "src/__tests__/authRoutes.spec.js", "src/__tests__/authService.spec.js", "src/__tests__/errorHandler.spec.js"],
+  "include": ["src/**/*", "src/tests/authRoutes.spec.js", "src/tests/authService.spec.js", "src/tests/errorHandler.spec.js"],
   "exclude": ["node_modules", "dist", "**/*.spec.ts"]
 }
