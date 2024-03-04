@@ -6,6 +6,6 @@ export async function all() {
       console.log(users)
       return users;
     } catch (error) {
-      throw new Error('Users creation failed');
+      throw new Error('User retrieval failed');
     }
   }

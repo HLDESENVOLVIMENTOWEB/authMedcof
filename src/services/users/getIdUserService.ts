@@ -1,14 +1,19 @@
 import { prisma } from '../../config/prisma';
 
-export async function getId(id:number) {
-    try {
+export async function getId(id: number) {
+  try {
       const user = await prisma.user.findFirst({
-        where: {
-          id
-        }
-      })
+          where: {
+              id
+          }
+      });
+
+      if (!user) {
+          throw new Error('User not found');
+      }
+
       return user;
-    } catch (error) {
-      throw new Error('Users creation failed');
-    }
+  } catch (error: any) {
+      throw new Error('User retrieval failed: ' + error.message);
   }
+}
